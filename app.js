@@ -1,6 +1,20 @@
 // object
 
-//object method
+const user = {
+    bday: 'July 8',
+    name: 'MacKenzie',
+    age: 26,
+    purchases: ['Kitten Heel--Size 8', 'Denim Jeans--Size 26', `Women's Sweater--Size Medium`]
+
+};
+
+console.log(user.purchases);
+
+
+//object method- functions attached to an object
+
+
+
 
 //array
 
