@@ -11,6 +11,7 @@ const user = {
 console.log(user.purchases);
 
 
+
 //object method- functions attached to an object
 
 const user2 = {
@@ -35,6 +36,15 @@ console.log(bday[4]); // recalling item 4 in array to console
 
 
 
+
+bday.indexOf('November 11'); // recalling item list number in array
+console.log(bday.indexOf('November 11'));
+
+ 
+
+//array method
+
+
 bday.push('July 31'); //adding to array
 console.log(bday); // recalling full array to console
 
@@ -48,12 +58,3 @@ console.log(bday);// recalling full array to console
 
 bday.unshift('April 14'); // add to beginning of array
 console.log(bday);// recalling full array to console
-
-bday.indexOf('November 11'); // recalling item list number in array
-console.log(bday.indexOf('November 11'));
-
- 
-
-//array method
-
-
