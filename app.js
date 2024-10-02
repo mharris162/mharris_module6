@@ -13,7 +13,17 @@ console.log(user.purchases);
 
 //object method- functions attached to an object
 
+const user2 = {
+    bday: 'July 8',
+    name: 'MacKenzie',
+    age: 26,
+    purchases: ['Kitten Heel--Size 8', 'Denim Jeans--Size 26', `Women's Sweater--Size Medium`],
+    sayName: function(){
+        console.log(`${user2.name} Ordered the following items:  ${this.purchases}`);
+    }
+};
 
+user2.sayName();
 
 
 //array
